@@ -7,7 +7,17 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'roboto': ['Roboto', 'sans-serif'],
+        'rubik': ['Rubik', 'sans-serif'],
+      },
+      colors: {
+        'gray': '#959EAD',
+        
+
+      },
+    },
   },
   plugins: [],
 }
