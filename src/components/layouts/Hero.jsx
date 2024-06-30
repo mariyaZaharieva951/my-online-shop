@@ -1,3 +1,6 @@
+"use client";
+import { AiOutlineRight, AiOutlineArrowDown } from "react-icons/ai";
+
 const Hero = () => {
   return (
     <div className="box mx-auto flex lg:flex-row flex-col justify-between mt-[60px]">
@@ -14,11 +17,21 @@ const Hero = () => {
           listening for up to 35 hours since start.
         </p>
         <div className="flex gap-5">
-          <button className="lg:text-base w-[160px] h-[48px] custom-button bg-myviolet text-white text-nowrap rounded">Buy Now</button>
-          <button className="lg:text-base w-[140px] h-[48px] custom-button border-2 text-myviolet border-myviolet text-nowrap rounded">Learn More</button>
+          <button className="lg:text-base w-[160px] h-[48px] custom-button bg-myviolet text-white text-nowrap rounded">
+            Buy Now
+          </button>
+          <button className="lg:text-base w-[140px] h-[48px] custom-button border-2 text-myviolet border-myviolet text-nowrap rounded">
+            Learn More
+          </button>
+        </div>
+        <AiOutlineArrowDown className="text-3xl text-gray mt-10 cursor-pointer" />
+      </div>
+      <div className="flex items-center">
+        <img className="lg:w-[372px] lg:h-[437px]" src="/assets/hero.png" />
+        <div className="bg-white py-4 px-4 rounded-full">
+          <AiOutlineRight className=" cursor-pointer" />
         </div>
       </div>
-      <img className="lg:w-[372px] lg:h-[437px]" src="/assets/hero.png" />
     </div>
   );
 };
