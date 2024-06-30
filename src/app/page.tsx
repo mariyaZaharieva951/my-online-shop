@@ -4,6 +4,7 @@ import Hero from "@/components/layouts/Hero";
 import Benefits from "@/components/layouts/Benefits";
 import Banner from "@/components/layouts/Banner";
 import Category from "@/components/layouts/Category";
+import ProductList from "@/components/layouts/ProductList";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Benefits/>
       <Banner/>
       <Category/>
+      <ProductList/>
     </main>
   );
 }
