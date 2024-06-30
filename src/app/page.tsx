@@ -3,6 +3,7 @@ import Header from "@/components/layouts/Header";
 import Hero from "@/components/layouts/Hero";
 import Benefits from "@/components/layouts/Benefits";
 import Banner from "@/components/layouts/Banner";
+import Category from "@/components/layouts/Category";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       </div>
       <Benefits/>
       <Banner/>
+      <Category/>
     </main>
   );
 }

@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-      <div className="box flex flex-col lg:flex-row justify-evenly lg:w-[1110px] lg:h-[335px] mx-auto bg-opacity-10 bg-blueGreen rounded font-roboto my-5">
+      <div className="boxSmall w-full flex flex-col lg:flex-row justify-evenly lg:w-[1110px] lg:h-[335px] mx-auto bg-opacity-10 bg-blueGreen rounded font-roboto my-5">
           <img className="lg:w-[350px] lg:h-[340px] pt-10" src="/assets/banner.png"/>
           <div className="flex flex-col gap-3 lg:w-[377px] lg:h-[227px] my-auto">
               <p className="text-blueGreen lgLtext-sm">FLASH SALE 7.7.7</p>

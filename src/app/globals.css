@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 
+.boxSmall {
+  max-width: 1110px;
+} 
+
 .input-no-border {
   border: none; 
 }
@@ -29,5 +33,5 @@ h1, h2, h3, h4, h5, h6 {
   padding:8px 30px;
   font-size: 14px;
   cursor: pointer;
-border-radius: 5px;
+  border-radius: 5px;
 }

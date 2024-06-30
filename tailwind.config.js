@@ -18,7 +18,8 @@ module.exports = {
         "gray": "#959EAD",
         "gray-light": "#F9FAFB",
         "blueGreen": "#47C1BF",
-        "myviolet": "#43467F"
+        "myviolet": "#43467F",
+        "violetLight": "#5C6AC4"
       
       },
     },
