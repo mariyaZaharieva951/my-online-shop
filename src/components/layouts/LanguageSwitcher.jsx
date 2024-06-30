@@ -23,7 +23,7 @@ const LanguageSwitcher = () => {
       <div>
         <button
           type="button"
-          className="inline-flex justify-center items-center w-full text-base text-gray-700 bg-white hover:bg-gray-50"
+          className="inline-flex justify-center items-center w-full lg:text-base text-sm text-gray-700 bg-white hover:bg-gray-50"
           onClick={() => setDropdownOpen(!dropdownOpen)}
         >
           <Image src={selectedLanguage.flag} alt={selectedLanguage.name} width={20} height={15} />
@@ -38,7 +38,7 @@ const LanguageSwitcher = () => {
             {languages.map((language) => (
               <button
                 key={language.code}
-                className="flex items-center w-full px-4 py-2 text-base text-gray-700 hover:bg-gray-100"
+                className="flex items-center w-full px-4 py-2 lg:text-base text-sm text-gray-700 hover:bg-gray-100"
                 onClick={() => handleLanguageChange(language)}
               >
                 <Image src={language.flag} alt={language.name} width={20} height={15} />

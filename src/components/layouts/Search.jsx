@@ -23,16 +23,16 @@ const Search = () => {
   };
 
   return (
-    <div className="flex w-[453px] h-[44px] bg-gray-light items-center space-x-2 p-4">
+    <div className="flex w-[453px] h-[44px] bg-gray-light items-center justify-between py-4">
       <input
         type="text"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-        className="px-2 py-1 bg-gray-light text-gray text-sm rounded-md focus:outline-none"
+        className="px-2 py-1 bg-gray-light text-gray text-sm rounded-md focus:outline-none input-no-border"
         placeholder="Search someting..."
       />
       <div className="relative">
-        <button className="flex items-center px-2 py-1 text-nowrap bg-gray-light rounded-md">
+        <button className="flex items-center px-2 py-1 text-nowrap bg-gray-light rounded-md -mr-[4 0px]">
           <span className='text-sm'>{categories[selectedCategoryIndex]}</span>
           <div className="ml-2 flex flex-col">
             <FontAwesomeIcon icon={faChevronUp} className='w-2'  onClick={() => handleCategoryChange('up')} />
@@ -42,7 +42,7 @@ const Search = () => {
       </div>
       <button
         onClick={handleSearch}
-        className="px-4 py-2 bg-black text-white rounded-md flex items-center"
+        className="px-2 py-2 bg-black text-white rounded-md flex items-center"
       >
         <FontAwesomeIcon icon={faSearch} />
       </button>

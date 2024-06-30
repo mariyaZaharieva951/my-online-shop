@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'flowbite';
+@import 'flowbite/dist/flowbite.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik:wght@400;700&display=swap');
 
@@ -13,7 +15,18 @@ h1, h2, h3, h4, h5, h6 {
   @apply font-rubik;
 }
 
-.container {
-  max-width: 1170px;
+.box {
+  max-width: 1190px;
   
+}
+
+.input-no-border {
+  border: none; 
+}
+
+.custom-button {
+  border-radius:10px;
+  padding:8px 30px;
+  font-size: 14px;
+  cursor: pointer;
 }

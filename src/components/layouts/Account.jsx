@@ -17,7 +17,7 @@ const Account = ({ username, onLogout }) => {
   return (
     <div className="relative inline-block text-left ">
       <div
-        className="flex gap-3 items-center cursor-pointer"
+        className="flex gap-5 items-center cursor-pointer"
         onClick={toggleDropdown}
       >
         <FontAwesomeIcon
