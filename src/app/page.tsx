@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "@/components/layouts/Header";
 import Hero from "@/components/layouts/Hero";
+import Benefits from "@/components/layouts/Benefits";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <div className="bg-gray-light">
       <Hero/>
       </div>
+      <Benefits/>
       
     </main>
   );

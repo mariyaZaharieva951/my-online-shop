@@ -3,7 +3,7 @@ import { AiOutlineRight, AiOutlineArrowDown } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <div className="box mx-auto flex lg:flex-row flex-col justify-between mt-[60px]">
+    <div className="box mx-auto flex lg:flex-row flex-col justify-between mt-[60px] py-[40px]">
       <div className="lg:w-[500px] lg:h-[438px]">
         <p className="text-roboto text-blueGreen text-sm text-uppercase pb-[15px]">
           SONY WH-H910N
