@@ -16,11 +16,11 @@ const Hero = () => {
           headphone. Long-lasting battery life plus quick charging keeps you
           listening for up to 35 hours since start.
         </p>
-        <div className="flex gap-5">
-          <button className="lg:text-base w-[160px] h-[48px] custom-button bg-myviolet text-white text-nowrap rounded">
+        <div className="flex gap-5 items-center">
+          <button className="lg:text-base w-[160px] h-[48px] custom-button bg-myviolet text-white text-nowrap">
             Buy Now
           </button>
-          <button className="lg:text-base w-[140px] h-[48px] custom-button border-2 text-myviolet border-myviolet text-nowrap rounded">
+          <button className="lg:text-base w-[140px] h-[48px] custom-button border-2 text-myviolet border-myviolet text-nowrap">
             Learn More
           </button>
         </div>
