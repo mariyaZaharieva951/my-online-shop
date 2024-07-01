@@ -1,4 +1,5 @@
 
+'use client';
 import Image from "next/image";
 
 const ProductList = () => {
@@ -7,19 +8,19 @@ const ProductList = () => {
       id: 1,
       title: "Popular items from cat 01",
       price: "1,725.00",
-      imageUrl: "/assets/bitmap.png",
+      imageUrl: "/assets/item1.png",
     },
     {
       id: 2,
       title: "Popular items from cat 01",
       price: "1,725.00",
-      imageUrl: "/assets/bitmap.png",
+      imageUrl: "/assets/item1.png",
     },
     {
       id: 3,
       title: "Popular items from cat 01",
       price: "1,725.00",
-      imageUrl: "/assets/bitmap.png",
+      imageUrl: "/assets/item1.png",
     },
   ];
 
@@ -28,19 +29,19 @@ const ProductList = () => {
       id: 1,
       title: "Popular items from cat 02",
       price: "1,725.00",
-      imageUrl: "/assets/item.png",
+      imageUrl: "/assets/item2.png",
     },
     {
       id: 2,
       title: "Popular items from cat 02",
       price: "1,725.00",
-      imageUrl: "/assets/item.png",
+      imageUrl: "/assets/item2.png",
     },
     {
       id: 3,
       title: "Popular items from cat 02",
       price: "1,725.00",
-      imageUrl: "/assets/item.png",
+      imageUrl: "/assets/item2.png",
     },
   ];
   const productsList3 = [
@@ -48,19 +49,19 @@ const ProductList = () => {
       id: 1,
       title: "Popular items from cat 03",
       price: "1,725.00",
-      imageUrl: "/assets/clothets.svg",
+      imageUrl: "/assets/item3.png",
     },
     {
       id: 2,
       title: "Popular items from cat 03",
       price: "1,725.00",
-      imageUrl: "/assets/clothets.svg",
+      imageUrl: "/assets/item3.png",
     },
     {
       id: 3,
       title: "Popular items from cat 03",
       price: "1,725.00",
-      imageUrl: "/assets/clothets.svg",
+      imageUrl: "/assets/item3.png",
     },
   ];
 
@@ -75,7 +76,7 @@ const ProductList = () => {
               alt={product.title}
               width={64}
               height={64}
-              className=" w-[28px] h-[56px]"
+              
             />
             <div
               key={product.id}
@@ -86,7 +87,7 @@ const ProductList = () => {
                 <div className="text-sm mr-5 text-violetLight">&#36;{product.price}</div>
                 
                 <img src="/assets/star.svg"/>
-                <div className="text-violetLight text-sm ml-2">4.6</div>
+                <div className="text-gray text-sm ml-2">4.6</div>
               </div>
             </div>
           </div>
@@ -102,7 +103,7 @@ const ProductList = () => {
               alt={product.title}
               width={64}
               height={64}
-              className=" w-[38px] h-[38px]"
+              
             />
             <div
               key={product.id}
@@ -113,7 +114,7 @@ const ProductList = () => {
                 <div className="text-sm mr-5 text-violetLight">&#36;{product.price}</div>
                 
                 <img src="/assets/star.svg"/>
-                <div className="text-violetLight text-sm ml-2">4.6</div>
+                <div className="text-gray text-sm ml-2">4.6</div>
               </div>
             </div>
           </div>
@@ -129,7 +130,7 @@ const ProductList = () => {
               alt={product.title}
               width={64}
               height={64}
-              className=" w-[46px] h-[56px]"
+              
             />
             <div
               key={product.id}
@@ -140,7 +141,7 @@ const ProductList = () => {
                 <div className="text-sm mr-5 text-violetLight">&#36;{product.price}</div>
                 
                 <img src="/assets/star.svg"/>
-                <div className="text-violetLight text-sm ml-2">4.6</div>
+                <div className="text-gray text-sm ml-2">4.6</div>
               </div>
               
             </div>

@@ -5,6 +5,7 @@ import Benefits from "@/components/layouts/Benefits";
 import Banner from "@/components/layouts/Banner";
 import Category from "@/components/layouts/Category";
 import ProductList from "@/components/layouts/ProductList";
+import Products from "@/components/layouts/Products";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero/>
       </div>
       <Benefits/>
+      <Products/>
       <Banner/>
       <Category/>
       <ProductList/>
