@@ -25,7 +25,7 @@ const Blog = () => {
 
 
     return (
-        <div className="box mx-auto flex flex-col justify-between py-[150px]">
+        <div className="box mx-auto flex flex-col justify-between pt-[150px] pb-[80px]">
             <div className="flex justify-between mb-[15px]">
                 <h2 className="font-rubik lg:text-4xl font-bold">Read our blog</h2>
                 <div className="custom-button text-base text-nowrap text-[#5C6AC4] border-2 border-[#5C6AC4]">More on blogs</div>

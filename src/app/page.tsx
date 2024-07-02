@@ -7,23 +7,29 @@ import Category from "@/components/layouts/Category";
 import ProductList from "@/components/layouts/ProductList";
 import Products from "@/components/layouts/Products";
 import Blog from "@/components/layouts/Blog";
+import Posters from "@/components/layouts/Posters";
+import Footer from "@/components/layouts/Footer";
 
 export default function Home() {
   return (
     <main className="flex flex-col">
       <div className="px-24">
-        <Header/>
+        <Header />
       </div>
-      
+
       <div className="bg-gray-light">
-      <Hero/>
+        <Hero />
       </div>
-      <Benefits/>
-      <Products/>
-      <Banner/>
-      <Category/>
-      <ProductList/>
-      <Blog/>
+      <Benefits />
+      <Products />
+      <Banner />
+      <Category />
+      <ProductList />
+      <Blog />
+      <Posters />
+      <div className="bg-gray-light">
+        <Footer />
+      </div>
     </main>
   );
 }
