@@ -20,7 +20,8 @@ module.exports = {
         "blueGreen": "#47C1BF",
         "myviolet": "#43467F",
         "violetLight": "#5C6AC4",
-        "yellowStar": "#EEC200"
+        "yellowStar": "#EEC200",
+        "redText": "#DE3618"
       
       },
     },
