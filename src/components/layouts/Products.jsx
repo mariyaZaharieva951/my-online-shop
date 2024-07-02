@@ -99,9 +99,9 @@ const Products = () => {
   ];
 
   return (
-    <div className="box mx-auto flex flex-col mt-10">
-      <div className="flex flex-col mb-5">
-      <h2 className="lg:text-4xl font-bold text-rubik text-center">
+    <div className="box mx-auto flex flex-col mt-10 py-7 border-t-2 border-grayBr">
+      <div className="flex flex-col my-10">
+      <h2 className="lg:text-4xl font-bold text-rubik text-center ">
         Best Seller Products
       </h2>
       <p className="text-gray lg:text-base text-center mt-3">
@@ -116,7 +116,7 @@ const Products = () => {
         {products.map((product) => (
           <div
             key={product.id}
-            className="flex w-[255px] h-[380px] flex-col relative items-center transition-shadow duration-300 hover:shadow-lg rounded-lg p-7"
+            className="flex w-[255px] h-[380px] flex-col relative items-center  duration-300 hover:shadow-lg rounded-lg p-7"
             onMouseEnter={() => setHoveredProductId(product.id)}
             onMouseLeave={() => setHoveredProductId(null)}
           >
@@ -143,7 +143,7 @@ const Products = () => {
         </div>
               </div>
               {hoveredProductId === product.id && (
-                <div className="absolute left-0 right-0 bottom-0 bg-white flex flex-col items-center gap-1 -mb-[60px] z-10 transition-opacity">
+                <div className="absolute left-0 right-0 bottom-0 bg-white flex flex-col items-center gap-1 -mb-[60px] z-10 transition-opacity pb-2 rounded-md">
                   <button className="w-[215px] h-[40px] custom-button bg-violetLight text-white">
                     Add to Cart
                   </button>

@@ -6,6 +6,7 @@ import Banner from "@/components/layouts/Banner";
 import Category from "@/components/layouts/Category";
 import ProductList from "@/components/layouts/ProductList";
 import Products from "@/components/layouts/Products";
+import Blog from "@/components/layouts/Blog";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Banner/>
       <Category/>
       <ProductList/>
+      <Blog/>
     </main>
   );
 }
