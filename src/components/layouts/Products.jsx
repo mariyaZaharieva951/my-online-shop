@@ -101,7 +101,7 @@ const Products = () => {
   return (
     <div className="box mx-auto flex flex-col mt-10 py-7 border-t-2 border-grayBr">
       <div className="flex flex-col my-10">
-      <h2 className="lg:text-4xl font-bold text-rubik text-center ">
+      <h2 className="lg:text-4xl text-2xl font-bold text-rubik text-center ">
         Best Seller Products
       </h2>
       <p className="text-gray lg:text-base text-center mt-3">
@@ -109,14 +109,14 @@ const Products = () => {
       </p>
       </div>
       <div
-        className="flex justify-between flex-wrap items-center"
+        className="flex lg:justify-between lg:flex-wrap flex-col lg:flex-row items-center"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
         {products.map((product) => (
           <div
             key={product.id}
-            className="flex w-[255px] h-[380px] flex-col relative items-center  duration-300 hover:shadow-lg rounded-lg p-7"
+            className="flex w-[255px] h-[380px] flex-col relative items-center duration-300 hover:shadow-lg rounded-lg p-7"
             onMouseEnter={() => setHoveredProductId(product.id)}
             onMouseLeave={() => setHoveredProductId(null)}
           >

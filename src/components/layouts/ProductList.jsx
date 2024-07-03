@@ -66,7 +66,7 @@ const ProductList = () => {
   ];
 
   return (
-    <div className="boxSmall w-full mx-auto flex justify-between py-20px">
+    <div className="boxSmall w-full mx-auto flex flex-col lg:flex-row justify-between lg:py-20px px-2 lg:px-0 gap-7 lg:gap-0">
       <div>
         <h2 className="text-[22px] font-bold text-left">Product List 1</h2>
         {productsList1.map((product) => (

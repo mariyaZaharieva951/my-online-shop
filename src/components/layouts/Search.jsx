@@ -23,7 +23,7 @@ const Search = () => {
   };
 
   return (
-    <div className="flex w-[453px] h-[44px] bg-gray-light items-center justify-between py-4">
+    <div className="flex lg:w-[453px] h-[44px] bg-gray-light items-center justify-between py-4">
       <input
         type="text"
         value={searchTerm}

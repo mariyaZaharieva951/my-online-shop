@@ -86,7 +86,10 @@ const Header = () => {
         <div className="lg:flex flex-row justify-between items-center mt-2">
           <div className="flex justify-between items-center">
             <Link href="/" className="text-[28px] font-bold">STORE</Link>
-            
+            <div className="lg:hidden flex gap-5 items-center">
+            <Cart itemCount={itemCount} />
+            <Likes />
+          </div>
             <button
               onClick={toggleMenu}
               data-drawer-target="default-sidebar"
@@ -112,7 +115,7 @@ const Header = () => {
             </button>
           </div>
 
-          <div className="hidden lg:block">
+          <div className="lg:inline-block hidden">
             <Search />
           </div>
           <div className="lg:flex hidden gap-5 items-center">

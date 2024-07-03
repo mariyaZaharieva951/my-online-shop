@@ -25,13 +25,13 @@ const Blog = () => {
 
 
     return (
-        <div className="box mx-auto flex flex-col justify-between pt-[150px] pb-[80px]">
+        <div className="box mx-auto flex flex-col justify-between lg:pt-[150px] lg:pb-[80px] py-[50px] px-2 lg:px-0">
             <div className="flex justify-between mb-[15px]">
-                <h2 className="font-rubik lg:text-4xl font-bold">Read our blog</h2>
+                <h2 className="font-rubik lg:text-4xl text-2xl font-bold">Read our blog</h2>
                 <div className="custom-button text-base text-nowrap text-[#5C6AC4] border-2 border-[#5C6AC4]">More on blogs</div>
             </div>
             <p className="text-gray text-base mb-[40px]">Check our latest article to get meaningfull content or tips for shopping</p>
-            <div className="flex lg:flex-row gap-[30px] flex-col">
+            <div className="flex lg:flex-row gap-[30px] flex-col items-center">
             {posts.map((p, index) => (
           <div key={index} className="w-[350px] h-[328px]  text-left">
             <img
