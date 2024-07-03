@@ -7,7 +7,8 @@ const Category = () => {
                 <div className="custom-button text-violetLight border-violetLight border-2">View all</div>
             </div>
 
-            <ul className="flex lg:flex-row lg:flex-nowrap flex-wrap justify-between font-roboto items-center pt-[60px]">
+
+            <ul className="flex lg:flex-row lg:flex-nowrap flex-wrap lg:justify-between justify-evenly font-roboto items-center pt-[60px]">
                 <li className="flex flex-col w-[160px] h-[220px] items-center">
                     <img className="w-[56px] h-[56px] mb-[20px]" src="/assets/telephone.svg"/>
                     <h4 className="text-sm mb-[10px] font-bold">Category Name</h4>
