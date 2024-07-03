@@ -109,7 +109,7 @@ const Products = () => {
       </p>
       </div>
       <div
-        className="flex justify-between flex-wrap"
+        className="flex justify-between flex-wrap items-center"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
@@ -121,7 +121,7 @@ const Products = () => {
             onMouseLeave={() => setHoveredProductId(null)}
           >
             <div className="flex w-full justify-between items-center">
-              <p className="text-xs text-redText bg-redText bg-opacity-10">SALE</p>
+              <p className="text-xs text-redText bg-redText bg-opacity-10 p-1 rounded font-bold">SALE</p>
               <img className="w-[36px] h-[36px]" src="./assets/love.svg"/>
             </div>
             <Image

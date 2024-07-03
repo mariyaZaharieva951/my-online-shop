@@ -13,7 +13,7 @@ import Footer from "@/components/layouts/Footer";
 export default function Home() {
   return (
     <main className="flex flex-col">
-      <div className="px-24">
+      <div className="lg:px-24 px-5">
         <Header />
       </div>
 

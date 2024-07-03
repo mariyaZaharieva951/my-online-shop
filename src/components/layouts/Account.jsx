@@ -3,7 +3,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faUser,
-  faCaretDown,
+  faChevronDown,
   faSignOutAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -29,10 +29,7 @@ const Account = ({ username, onLogout }) => {
           <span className="text-gray">{username}</span>
         <div className="flex items-center text-nowrap">
           <span>My Account</span>
-          <FontAwesomeIcon
-            icon={faCaretDown}
-            className="text-gray-600 w-4 h-4 ml-2"
-          />
+          <FontAwesomeIcon icon={faChevronDown} className="ml-2" />
           </div>
         </div>
       </div>
